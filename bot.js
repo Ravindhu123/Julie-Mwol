@@ -161,7 +161,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*Lusifar worked private*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*Lusifar worked public*', MessageType.text);
                 }
             }
             else {
@@ -183,7 +183,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*Lusifar worked private*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*Lusifar worked public*', MessageType.text);
                 }
 
             }
@@ -209,7 +209,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '*Lusifar worked public*', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '*Lusifar worked private*', MessageType.text);
                 }
             }
             else {
