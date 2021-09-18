@@ -55,11 +55,11 @@ if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Julie.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
-        let regex1 = new RegExp('fuck')
-        let regex2 = new RegExp('sex')
-        let regex3 = new RegExp('naked')
-        let regex4 = new RegExp('හුත්තා')
-        let regex5 = new RegExp('පකයා')
+        let regex1 = new RegExp('http://')
+        let regex2 = new RegExp('https://chat')
+        let regex3 = new RegExp('https://meet')
+        let regex4 = new RegExp('https://t.co')
+        let regex5 = new RegExp('https://t.me')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
