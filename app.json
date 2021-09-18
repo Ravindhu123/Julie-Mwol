@@ -47,7 +47,7 @@
             "value": "false"
         },
         "ANTİ_LİNK": {
-            "description": "Link Blocking System.",
+            "description": "remove when use links and badwords",
             "required": true,
             "value": "false"
         },
