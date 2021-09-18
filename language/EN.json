@@ -72,6 +72,11 @@
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
             "GIVE_ME_CODE": "*Give me a code!*"
+            
+        },
+        "evaluators2": {
+            "TERM_DESC": "Allows to run the command on the server's shell.",
+            "GIVE_ME_CODE": "*Give me a code!*"    
         },
         "nekobin": {
             "NEKO_DESC": "Replied messages will be added to nekobin.com.",
